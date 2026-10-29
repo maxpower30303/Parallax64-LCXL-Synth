@@ -1,0 +1,12 @@
+# Build output
+build/
+out/
+.vs/
+*.user
+*.obj
+*.pdb
+*.ilk
+*.exe
+
+# Local release packaging
+release/
