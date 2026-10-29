@@ -6,9 +6,10 @@ An 8-voice subtractive synthesizer for Windows, built with [JUCE](https://juce.c
 
 ## Screenshots
 
-<img src="docs/Parallax64-LCXL-Synth-night-blue.png" alt="Parallax64 LCXL Synth, skin Night Blue" width="800">
+Click an image to enlarge it.
 
-<img src="docs/Parallax64-LCXL-Synth-white-red.png" alt="Parallax64 LCXL Synth, skin White / Red" width="800">
+<a href="docs/Parallax64-LCXL-Synth-night-blue.png"><img src="docs/Parallax64-LCXL-Synth-night-blue-small.png" alt="Parallax64 LCXL Synth, skin Night Blue" width="49%"></a>
+<a href="docs/Parallax64-LCXL-Synth-white-red.png"><img src="docs/Parallax64-LCXL-Synth-white-red-small.png" alt="Parallax64 LCXL Synth, skin White / Red" width="49%"></a>
 
 ## Features
 
