@@ -4,6 +4,12 @@ by Flix
 
 An 8-voice subtractive synthesizer for Windows, built with [JUCE](https://juce.com) and made to be played from a **Novation Launch Control XL MK3**. Runs as a **VST3 plug-in** and as a **standalone application** (WASAPI/ASIO).
 
+## Screenshots
+
+<img src="docs/Parallax64-LCXL-Synth-night-blue.png" alt="Parallax64 LCXL Synth, skin Night Blue" width="800">
+
+<img src="docs/Parallax64-LCXL-Synth-white-red.png" alt="Parallax64 LCXL Synth, skin White / Red" width="800">
+
 ## Features
 
 - 8 voices, two anti-aliased oscillators (PolyBLEP) plus sub oscillator and noise, optional hard sync
