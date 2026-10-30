@@ -639,7 +639,8 @@ void Parallax64AudioProcessorEditor::mouseDown(const juce::MouseEvent& e)
         m.addSeparator();
         m.addItem(4, "Alle Mappings zuruecksetzen (" + juce::String(proc.getMappingCount()) + ")");
 
-        m.showMenuAsync(juce::PopupMenu::Options().withTargetComponent(this),
+        // Menue direkt an der Mausposition oeffnen (vorher am Rand des Editors)
+        m.showMenuAsync(juce::PopupMenu::Options().withParentComponent(this).withMousePosition(),
             [this, foundSpecIdx](int result)
             {
                 if (result == 2)

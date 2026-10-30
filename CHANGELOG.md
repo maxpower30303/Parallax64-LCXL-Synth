@@ -8,6 +8,7 @@ Stresstest vor dem Release (Zufalls-MIDI/-Parameter/-Presets, 16 Laeufe, 387k Bl
 - Keine Heap-Allokation mehr im Audio-Thread bei >64 Arp-Noten und bei Host-Bloecken groesser als vorbereitet (Reverb in Stuecken).
 - Statische VC++-Runtime (keine Redistributable noetig); EXE-Versionsinfo korrekt (Flix / Version).
 - Messung: 1.7 % CPU im Mittel (48 kHz/256, 8 Stimmen), Worst-Case 19.6 % bei 192 kHz/128; 0 Fehler unter ASan.
+- MIDI-Learn-Menue (Rechtsklick) oeffnet direkt an der Mausposition statt am Fensterrand.
 
 ## 1.0.10
 OLED-Display zeigt jetzt auch Werte, die in der Oberflaeche eingestellt werden.
